@@ -1,7 +1,7 @@
 {
-  "name": "jelon-project",
+  "name": "vue-blog-demo",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "基于 Vue + Vuex + Bootstrap 的blog demo",
   "author": "Jelon",
   "private": true,
   "scripts": {
@@ -13,8 +13,8 @@
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs"
   },
   "dependencies": {
-    "vue": "^1.0.21",
-    "babel-runtime": "^6.0.0"
+    "babel-runtime": "^6.0.0",
+    "vue": "^1.0.26"
   },
   "devDependencies": {
     "babel-core": "^6.0.0",
