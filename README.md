@@ -2,6 +2,8 @@
 
 > 基于 vue + vuex + bootstrap 的blog demo
 
+![Demo 截图](http://7xs305.com1.z0.glb.clouddn.com/vue_vuex_bootstrap/1.gif)
+
 ## Build Setup
 
 ``` bash
