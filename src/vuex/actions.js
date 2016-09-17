@@ -6,5 +6,7 @@ export const incrementCounter = ({ dispatch, state }) => {
 }
 
 export const newPost = ({ dispatch, state }, post) => {
-  dispatch('NEW_POST', post)
+  if (post.title.trim() && post.content.trim()) {
+    dispatch('NEW_POST', post)
+  }
 }
